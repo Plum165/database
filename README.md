@@ -51,7 +51,7 @@ CREATE TABLE students (
   course_list_id INT,
   FOREIGN KEY (course_list_id) REFERENCES course_list(course_list_id)
 );
-
+```
 Getting copy of the files
 ```
 git clone https://github.com/yourusername/chommies-sql-simulation.git
